@@ -31,7 +31,7 @@ INSTRUCCIONES DE EJECUCIÓN LOCAL:
 2. Crear y activar el entorno virtual:
    Bash
    python -m venv vehicles_env
-   # En Windows (PowerShell):
+   - En Windows (PowerShell):
    .\vehicles_env\Scripts\activate
 
 3. Instalar las dependencias necesarias:
