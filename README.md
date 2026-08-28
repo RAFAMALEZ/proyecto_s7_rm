@@ -21,3 +21,24 @@ COMPOSICIÓN DEL REPOSITORIO.
 - Un archivo de texto requirements.txt, con la mención de las librerías que se usaron en el archivo app.py.
 
 - Un archivo vehicles_us.csv, que contiene la tabla de datos analizada y graficada.
+
+INSTRUCCIONES DE EJECUCIÓN LOCAL:
+1. Clonar el repositorio y navegar a la carpeta:
+   Bash
+   git clone "https://github.com/RAFAMALEZ/proyecto_s7_rm"
+   cd proyecto_s7_rm
+
+2. Crear y activar el entorno virtual:
+   Bash
+   python -m venv vehicles_env
+   # En Windows (PowerShell):
+   .\vehicles_env\Scripts\activate
+
+3. Instalar las dependencias necesarias:
+   Bash
+   pip install -r requirements.txt
+
+4. Ejecutar la aplicación interactiva de Streamlit:
+   Bash
+   streamlit run app.py
+   
